@@ -11,7 +11,7 @@ export default function CategoryBar() {
       <div className="max-w-7xl mx-auto px-4">
         
         {/* Scrollable Container */}
-        <div className="flex justify-start md:justify-center items-start overflow-x-auto gap-4 md:gap-8 no-scrollbar pb-2 px-2">
+        <div className="flex justify-start  items-start overflow-x-auto gap-4 md:gap-8 no-scrollbar pb-2 px-2">
           {CATEGORIES.map((cat) => {
             
             // Check if this category is currently active

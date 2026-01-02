@@ -2,11 +2,11 @@ export const CATEGORIES = [
   { id: "gym", name: "Outdoor Gym", slug: "outdoor-gym", image: "/images/outdoor.webp" },
   { id: "playground", name: "Outdoor Playground",slug: "outdoor-playground" , image: "/images/outdoor1.webp" },
   { id: "play-equip", name: "Playground Equip",slug: "playground-equip", image: "/images/playground.webp" },
-  { id: "play-outdoor", name: "Outdoor Play",slug: "outdoor-play" , image: "/images/outdoorplay.webp" },
-  { id: "slide", name: "Playground Slide", slug:"playground-slide", image: "/images/playground.webp" },
-  { id: "multiplay", name: "Multiplay Station", slug:"multiplay-station" ,image: "/images/multiplay.webp" },
+  // { id: "play-outdoor", name: "Outdoor Play",slug: "outdoor-play" , image: "/images/outdoorplay.webp" },
+  // { id: "slide", name: "Playground Slide", slug:"playground-slide", image: "/images/playground.webp" },
+  // { id: "multiplay", name: "Multiplay Station", slug:"multiplay-station" ,image: "/images/multiplay.webp" },
   { id: "indoor", name: "Indoor Equipment", slug:"indoor-equip" ,image: "/images/indoor.webp" },
-  { id: "open-gym", name: "Open Gym", slug:"open-gym" , image: "/images/opengym.webp" },
+  // { id: "open-gym", name: "Open Gym", slug:"open-gym" , image: "/images/opengym.webp" },
   { id: "dustbin", name: "Fiber Dustbin", slug:"dustbin" , image: "/images/dustbin.webp" },
 ];
 
@@ -186,10 +186,10 @@ export const ALL_PRODUCTS = [
     name: "Multiplay Nursery Jumbo Set",
     price: "₹79,990",
     category: "Indoor Equipment",
-    categorySlug: "indoor",
+    categorySlug: "indoor-equip",
     material: "Plastic",
     brand: "Perfinexa",
-    image: "/images/indoor1.webp",
+    image: "/images/Multiplay Nursery Jumbo Set.jpg",
     specs: { dimensions: "120x73x70", origin: "India" }
   },
   {
@@ -197,10 +197,10 @@ export const ALL_PRODUCTS = [
     name: "Plastic Toddler Ring Toy",
     price: "₹499",
     category: "Indoor Equipment",
-    categorySlug: "indoor",
+   categorySlug: "indoor-equip",
     material: "Plastic",
     brand: "Perfinexa",
-    image: "/images/toy1.webp",
+    image: "/images/Plastic Toddler Ring Toy.jpg",
     specs: { age: "0-3 Yrs", rings: "12" }
   },
   {
@@ -208,10 +208,10 @@ export const ALL_PRODUCTS = [
     name: "Pony Rocking Ride On",
     price: "₹2,490",
     category: "Indoor Equipment",
-    categorySlug: "indoor",
+   categorySlug: "indoor-equip",
     material: "Plastic",
     brand: "Perfinexa",
-    image: "/images/ride1.webp",
+    image: "/images/Pony Rocking Ride On.jpg",
     specs: { color: "Green", age: "0-3 Yrs" }
   },
 
@@ -224,7 +224,7 @@ export const ALL_PRODUCTS = [
     categorySlug: "dustbin",
     material: "FRP",
     brand: "Perfinexa",
-    image: "/images/bin1.webp",
+    image: "/images/dustbin.webp",
     specs: { capacity: "90 L", height: "4FT" }
   },
   {
@@ -235,7 +235,7 @@ export const ALL_PRODUCTS = [
     categorySlug: "dustbin",
     material: "Fiber",
     brand: "Perfinexa",
-    image: "/images/bin2.webp",
+    image: "/images/duck.webp",
     specs: { usage: "Outdoor / Indoor" }
   }
 ];
